@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(50, 50, 50);
+    padding: 10px;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+p {
+    color: rgb(212, 210, 210)
+}
+h3 {
+    color: rgb(212, 210, 210)
+}
+@media (max-width: 900px){
+    .img-batman {
+        max-width: 500px;
+    }       
+    }
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    p, ul {
+        font-size: 1rem;
+    }
+    .img-batman {
+        max-width: 100%;
+    }
+    } 
